@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EEI4369_Design_Project</string>
+    <string name="app_name1">Sample</string>
+    <string name="map_key" translatable="false"> ENTER YOUR Google API KEY HERE !!!</string>
+</resources>

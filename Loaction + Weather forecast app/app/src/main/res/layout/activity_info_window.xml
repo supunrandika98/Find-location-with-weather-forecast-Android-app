@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eei4369_design_project.ActivityInfoWindow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical">
+
+        <!--inserting celsius value -->
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:text="0*C"
+            android:textColor="#053336"
+            android:textSize="50sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <!--inserting weather status -->
+        <TextView
+            android:id="@+id/weatherCondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="30sp"
+            android:text="Loading......."
+            android:textColor="#053336"
+            android:textSize="30sp">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnWeatherForecast"
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/buttondesign"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Ok" />
+
+            <Button
+                android:id="@+id/btnWeatherForecast1"
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:textAllCaps="false"
+                android:layout_marginStart="48dp"
+                android:background="@drawable/buttondesign"
+                android:gravity="center"
+                android:text="See More" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

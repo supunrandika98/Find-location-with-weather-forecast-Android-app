@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "EEI4369_Design_Project"
